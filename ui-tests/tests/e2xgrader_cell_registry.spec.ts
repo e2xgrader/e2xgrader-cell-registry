@@ -17,7 +17,7 @@ test('should emit an activation console message', async ({ page }) => {
 
   expect(
     logs.filter(
-      s => s === 'JupyterLab extension @e2xgrader/cell-registry is activated!'
+      s => s === 'JupyterLab extension @e2xgrader/cell-registry:cell-registry is activated!'
     )
   ).toHaveLength(1);
 });
