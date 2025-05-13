@@ -10,14 +10,6 @@ export const E2X_UNRENDER_BUTTON_CLASS = 'e2x_unrender';
 export const E2X_BUTTON_CLASS = 'e2x_btn';
 
 /**
- * Interface for a function that renders an E2XMarkdownCell.
- */
-export type E2xRenderCellFunction = (
-  widget: Widget,
-  cell: E2XMarkdownCell
-) => void;
-
-/**
  * Namespace containing interfaces and constants related to E2x metadata.
  */
 export namespace E2xMetadata {
