@@ -69,3 +69,6 @@ const cellFactoryPlugin: JupyterFrontEndPlugin<NotebookPanel.IContentFactory> =
   };
 
 export default [cellRegistryPlugin, cellFactoryPlugin];
+export * from './cellplugin';
+export * from './cell';
+export * from './factory';
