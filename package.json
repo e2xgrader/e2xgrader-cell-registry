@@ -1,6 +1,6 @@
 {
     "name": "@e2xgrader/cell-registry",
-    "version": "0.0.1-a1",
+    "version": "0.0.1-a2",
     "description": "A JupyterLab extension for e2xgrader that provides a registry for custom cells",
     "keywords": [
         "jupyter",
